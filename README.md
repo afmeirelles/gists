@@ -351,7 +351,7 @@ List comments on a gist ([docs](https://developer.github.com/v3/gists/comments/#
 
 ```js
 // GET /gists/:gist_id/comments
-gists.listComments(options);
+gists.listComments(gist_id, options);
 ```
 
 ### [.edit](index.js#L354)
